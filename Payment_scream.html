@@ -92,12 +92,16 @@
                   <p class="text-[#0d141b] text-lg font-bold leading-tight tracking-[-0.015em] max-w-[480px] text-center">Drag and drop or browse</p>
                   <p class="text-[#0d141b] text-sm font-normal leading-normal max-w-[480px] text-center">Upload your payment receipt here to complete the reservation.</p>
                 </div>
+                
                 <label
                   for="file-upload"
                   class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#e7edf3] text-[#0d141b] text-sm font-bold leading-normal tracking-[0.015em]"
                 >
                   <span class="truncate">Browse Files</span>
                 </label>
+                
+                <p id="file-name-display" class="text-[#4c739a] text-sm font-normal leading-normal max-w-[480px] text-center mt-2">Henüz dosya seçilmedi.</p>
+                
                 <input id="file-upload" type="file" class="sr-only" />
               </div>
             </div>
@@ -112,6 +116,6 @@
           </div>
         </div>
       </div>
-    </div>
+      <script src="file_upload.js"></script>
   </body>
 </html>
