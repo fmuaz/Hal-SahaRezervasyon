@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex h-auto min-h-screen w-full flex-col bg-slate-50 group/design-root overflow-x-hidden" style='font-family: "Public Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf3] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#0d141b]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path></svg>
+            </div>
+            <h2 class="text-[#0d141b] text-lg font-bold leading-tight tracking-[-0.015em]">CampusConnect</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#0d141b] text-sm font-medium leading-normal" href="#">Home</a>
+              <a class="text-[#0d141b] text-sm font-medium leading-normal" href="#">Reservations</a>
+              <a class="text-[#0d141b] text-sm font-medium leading-normal" href="#">Profile</a>
+            </div>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA2hBocS4F5EGeJQypiVHmWtKWLMm5kH3tae1MxKhpFwVMvl0AWmm7J8bREjupPi_GDAbK-b6Q8BFChKxYYe0mP-hfW3NEo2dn0CaVh6bdTpSUmH7wVaWDm8pUXPTCUe9iDsvuCCf3z-s-o0nmj0KQQgirmKruCxOWY_ZJK3WngOn7VRJ8RmjUzGclsp0jwsvXrVwyCkQimtJQZsityszy7RQvOye1w7RXJvBcV1CB6l6SGm4Vh7oEVzaCEdZVoepilpGS8bHUAejxz");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <h2 class="text-[#0d141b] tracking-light text-[28px] font-bold leading-tight px-4 text-center pb-3 pt-5">Select Your Campus</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCOp9BBCpRO7povSsGOMLv-zIMhsHgYeCn6AxfJBqbxIJ0vzunzD71qM-7eWtSYO-JFWUEOnitFbO71cvkeF3VqmuS-8efKxVfgT-x2ukGXgkcAAYhru19k18gOoqRtR_fa22Y9pZMaXHFg4xutVveIRl8Ii_jPkbpuh0cbLsDzXawObGeDjdWZJPBNk3qBlq2_ZP2E27s6hoxcs5a2GuRuj6pwQsCoCHd9IWuwZg9MVbYhhGWXKcIFuvSlcf55LQSHP8hBvahVXX9d");'
+                ></div>
+                <p class="text-[#0d141b] text-base font-medium leading-normal">Etlik Campus</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuByQvkymxRx_vXg5U4tN59fJbgz9YboauOyypzqZSAB1GdDzwoFkb3RfkSif7nkRkHHgUZVCieORybcQEKKRjv8TdziDY9ykYZ_tBXE4Zh6OF27ahrsoxOPqm85qMiL6nocdaVGR5rdombZeQy-U2uYn8O4IfmNHIENoLBUsXj_nMry8j2xs2mXg1yDXE9LOcv1OrZjuVZA6mGloR-shJKkr1vLnPxlWUnqd5o8HHPsph4clhEOK4ccNt5oj4TEVVtTmC6j6sPCd7F9");'
+                ></div>
+                <p class="text-[#0d141b] text-base font-medium leading-normal">Esenboga Campus</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
