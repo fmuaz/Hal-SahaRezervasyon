@@ -5,10 +5,10 @@
       rel="stylesheet"
       as="style"
       onload="this.rel='stylesheet'"
-      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900"
+      href="https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&family=Public+Sans%3Awght%40400%3B500%3B700%3B900"
     />
 
-    <title>Stitch Design</title>
+    <title>Saat Seçimi</title>
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
 
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
@@ -20,7 +20,7 @@
     >
       <div class="layout-container flex h-full grow flex-col">
         <header
-          class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf3] px-10 py-3"
+          class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf3] px-4 py-3"
         >
           <div class="flex items-center gap-4 text-[#0d141b]">
             <div class="size-4">
@@ -30,7 +30,7 @@
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M6 6H42L36 24L42 42H6L12 24L6 6Z"
+                  d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z"
                   fill="currentColor"
                 ></path>
               </svg>
@@ -38,150 +38,192 @@
             <h2
               class="text-[#0d141b] text-lg font-bold leading-tight tracking-[-0.015em]"
             >
-              CampusConnect
+              Campus Sports
             </h2>
           </div>
-          <div class="flex flex-1 justify-end gap-8">
+          <div class="hidden flex-1 justify-end gap-8 lg:flex">
             <div class="flex items-center gap-9">
-              <a
-                class="text-[#0d141b] text-sm font-medium leading-normal"
-                href="#"
+              <a class="text-[#0d141b] text-sm font-medium leading-normal" href="#"
                 >Home</a
               >
-              <a
-                class="text-[#0d141b] text-sm font-medium leading-normal"
-                href="#"
+              <a class="text-[#0d141b] text-sm font-medium leading-normal" href="#"
                 >Reservations</a
               >
-              <a
-                class="text-[#0d141b] text-sm font-medium leading-normal"
-                href="#"
-                >Profile</a
+              <a class="text-[#0d141b] text-sm font-medium leading-normal" href="#"
+                >Contact</a
               >
             </div>
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#e7edf3] text-[#0d141b] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+            >
+              <div
+                class="text-[#0d141b]"
+                data-icon="Bell"
+                data-size="20px"
+                data-weight="regular"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  height="20px"
+                  fill="currentColor"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
             <div
               class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
-              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA2hBocS4F5EGeJQypiVHmWtKWLMm5kH3tae1MxKhpFwVMvl0AWmm7J8bREjupPi_GDAbK-b6Q8BFChKxYYe0mP-hfW3NEo2dn0CaVh6bdTpSUmH7wVaWDm8pUXPTCUe9iDsvuCCf3z-s-o0nmj0KQQgirmKruCxOWY_ZJK3WngOn7VRJ8RmjUzGclsp0jwsvXrVwyCkQimtJQZsityszy7RQvOye1w7RXJvBcV1CB6l6SGm4Vh7oEVzaCEdZVoepilpGS8bHUAejxz");'
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBO2AgG8vnuEinrblt1GXYYbUzuS3412dMYnWhATegg2LZGS0TIOYeV1XeOe7AueXOHhIroAApk4MAZcMjKXMYw5uckcg7fmVY9Q-IL7b0PPtaXFzlludE3DWcjeAZ9hd1pNuKvcj1Fz64QvuyTqH9jtwNGfsIXJnlsy_LHilsmMnffT6UI3CzReWKhL6dtqVvbOmZM4bxi3SL0bFG-Wx2wgjUZ8k1apPss30bFatS-hLyCNKkl6ZLwPzUGcBblaH9zsxM2-T6DjA2E");'
             ></div>
           </div>
         </header>
 
-        <!-- Orta içerik -->
-        <div class="px-40 flex flex-1 justify-center py-5">
-          <div
-            class="layout-content-container flex flex-col max-w-[960px] flex-1"
-          >
-            <h2
-              class="text-[#0d141b] tracking-light text-[28px] font-bold leading-tight px-4 text-center pb-3 pt-5"
-            >
-              Select Your Campus
-            </h2>
-
-            <!-- Tarih seçme alanı -->
-            <div class="flex flex-col items-center gap-3 p-4">
-              <input
-                type="date"
-                id="datePicker"
-                class="border border-gray-300 rounded-lg px-3 py-2"
-                onchange="showDate()"
-              />
-              <p
-                id="selectedDate"
-                class="text-[#0d141b] text-base font-medium leading-normal"
-              ></p>
-
-              <button
-                onclick="goNext()"
-                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#1172d4] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
-              >
-                <span class="truncate">Next</span>
-              </button>
-            </div>
-
-            <!-- Kampüs seçimi -->
-            <div
-              class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4"
-            >
-              <div
-                class="campus-option flex flex-col gap-3 pb-3 cursor-pointer rounded-lg border-2 border-transparent"
-                onclick="selectCampus('Etlik Campus', this)"
-              >
-                <div
-                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCOp9BBCpRO7povSsGOMLv-zIMhsHgYeCn6AxfJBqbxIJ0vzunzD71qM-7eWtSYO-JFWUEOnitFbO71cvkeF3VqmuS-8efKxVfgT-x2ukGXgkcAAYhru19k18gOoqRtR_fa22Y9pZMaXHFg4xutVveIRl8Ii_jPkbpuh0cbLsDzXawObGeDjdWZJPBNk3qBlq2_ZP2E27s6hoxcs5a2GuRuj6pwQsCoCHd9IWuwZg9MVbYhhGWXKcIFuvSlcf55LQSHP8hBvahVXX9d");'
-                ></div>
+        <div class="px-4 lg:px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
                 <p
-                  class="text-[#0d141b] text-base font-medium leading-normal text-center"
+                  class="text-[#0d141b] tracking-light text-[32px] font-bold leading-tight"
                 >
-                  Etlik Campus
+                  Saha Rezervasyonları
+                </p>
+                <p class="text-[#4c739a] text-sm font-normal leading-normal">
+                  Rezervasyonunuz için bir saat dilimi seçin.
                 </p>
               </div>
-              <div
-                class="campus-option flex flex-col gap-3 pb-3 cursor-pointer rounded-lg border-2 border-transparent"
-                onclick="selectCampus('Esenboga Campus', this)"
-              >
-                <div
-                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuByQvkymxRx_vXg5U4tN59fJbgz9YboauOyypzqZSAB1GdDzwoFkb3RfkSif7nkRkHHgUZVCieORybcQEKKRjv8TdziDY9ykYZ_tBXE4Zh6OF27ahrsoxOPqm85qMiL6nocdaVGR5rdombZeQy-U2uYn8O4IfmNHIENoLBUsXj_nMry8j2xs2mXg1yDXE9LOcv1OrZjuVZA6mGloR-shJKkr1vLnPxlWUnqd5o8HHPsph4clhEOK4ccNt5oj4TEVVtTmC6j6sPCd7F9");'
-                ></div>
+            </div>
+
+            <h3
+              class="text-[#0d141b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4"
+            >
+              Müsait Saatler
+            </h3>
+
+            <div
+              class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2 justify-between border-b border-gray-200"
+            >
+              <div class="flex flex-col justify-center">
                 <p
-                  class="text-[#0d141b] text-base font-medium leading-normal text-center"
+                  class="text-[#0d141b] text-base font-medium leading-normal line-clamp-1"
                 >
-                  Esenboga Campus
+                  Saha A
                 </p>
+                <p
+                  class="text-[#4c739a] text-sm font-normal leading-normal line-clamp-2"
+                >
+                  16:00 - 17:00
+                </p>
+              </div>
+              <div class="shrink-0">
+                <div class="flex size-7 items-center justify-center">
+                  <div class="size-3 rounded-full bg-[#078838]"></div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2 justify-between border-b border-gray-200"
+            >
+              <div class="flex flex-col justify-center">
+                <p
+                  class="text-[#0d141b] text-base font-medium leading-normal line-clamp-1"
+                >
+                  Saha A
+                </p>
+                <p
+                  class="text-[#4c739a] text-sm font-normal leading-normal line-clamp-2"
+                >
+                  17:00 - 18:00
+                </p>
+              </div>
+              <div class="shrink-0">
+                <a
+                  href="Payment_scream.html"
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#0d141b] text-white text-sm font-medium leading-normal w-fit transition-colors hover:bg-gray-700"
+                >
+                  <span class="truncate">Rezervasyon Yap</span>
+                </a>
+              </div>
+            </div>
+
+            <div
+              class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2 justify-between border-b border-gray-200"
+            >
+              <div class="flex flex-col justify-center">
+                <p
+                  class="text-[#0d141b] text-base font-medium leading-normal line-clamp-1"
+                >
+                  Saha A
+                </p>
+                <p
+                  class="text-[#4c739a] text-sm font-normal leading-normal line-clamp-2"
+                >
+                  18:00 - 19:00
+                </p>
+              </div>
+              <div class="shrink-0">
+                <a
+                  href="Payment_scream.html"
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#0d141b] text-white text-sm font-medium leading-normal w-fit transition-colors hover:bg-gray-700"
+                >
+                  <span class="truncate">Rezervasyon Yap</span>
+                </a>
+              </div>
+            </div>
+
+            <div
+              class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2 justify-between border-b border-gray-200"
+            >
+              <div class="flex flex-col justify-center">
+                <p
+                  class="text-[#0d141b] text-base font-medium leading-normal line-clamp-1"
+                >
+                  Saha A
+                </p>
+                <p
+                  class="text-[#4c739a] text-sm font-normal leading-normal line-clamp-2"
+                >
+                  19:00 - 20:00
+                </p>
+              </div>
+              <div class="shrink-0">
+                <div class="flex size-7 items-center justify-center">
+                  <div class="size-3 rounded-full bg-[#078838]"></div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2 justify-between border-b border-gray-200"
+            >
+              <div class="flex flex-col justify-center">
+                <p
+                  class="text-[#0d141b] text-base font-medium leading-normal line-clamp-1"
+                >
+                  Saha A
+                </p>
+                <p
+                  class="text-[#4c739a] text-sm font-normal leading-normal line-clamp-2"
+                >
+                  20:00 - 21:00
+                </p>
+              </div>
+              <div class="shrink-0">
+                <a
+                  href="Payment_scream.html"
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#0d141b] text-white text-sm font-medium leading-normal w-fit transition-colors hover:bg-gray-700"
+                >
+                  <span class="truncate">Rezervasyon Yap</span>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- Script en alta -->
-    <script>
-      let selectedCampus = "";
-
-      function showDate() {
-        const dateInput = document.getElementById("datePicker").value;
-        const display = document.getElementById("selectedDate");
-
-        if (dateInput) {
-          display.textContent = "Seçilen Tarih: " + dateInput;
-        } else {
-          display.textContent = "";
-        }
-      }
-
-      function selectCampus(campusName, element) {
-        selectedCampus = campusName;
-
-        // Önce tümünü temizle
-        document.querySelectorAll(".campus-option").forEach((el) => {
-          el.classList.remove("border-blue-500", "shadow-lg");
-          el.classList.add("border-transparent");
-        });
-
-        // Seçilen kutuya efekt ekle
-        element.classList.remove("border-transparent");
-        element.classList.add("border-blue-500", "shadow-lg");
-      }
-
-      function goNext() {
-        const dateInput = document.getElementById("datePicker").value;
-
-        if (!dateInput) {
-          alert("Lütfen bir tarih seçiniz!");
-          return;
-        }
-
-        if (!selectedCampus) {
-          alert("Lütfen bir kampüs seçiniz!");
-          return;
-        }
-
-        // Yönlendirme
-        window.location.href =
-          "Select_cloce.html?date=" + dateInput + "&campus=" + selectedCampus;
-      }
-    </script>
   </body>
 </html>
