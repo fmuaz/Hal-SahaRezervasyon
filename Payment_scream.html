@@ -5,7 +5,7 @@
       rel="stylesheet"
       as="style"
       onload="this.rel='stylesheet'"
-      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900"
+      href="https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&family=Public+Sans%3Awght%40400%3B500%3B700%3B900"
     />
 
     <title>Stitch Design</title>
@@ -92,18 +92,20 @@
                   <p class="text-[#0d141b] text-lg font-bold leading-tight tracking-[-0.015em] max-w-[480px] text-center">Drag and drop or browse</p>
                   <p class="text-[#0d141b] text-sm font-normal leading-normal max-w-[480px] text-center">Upload your payment receipt here to complete the reservation.</p>
                 </div>
-                <button
+                <label
+                  for="file-upload"
                   class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#e7edf3] text-[#0d141b] text-sm font-bold leading-normal tracking-[0.015em]"
                 >
                   <span class="truncate">Browse Files</span>
-                </button>
+                </label>
+                <input id="file-upload" type="file" class="sr-only" />
               </div>
             </div>
             <div class="flex px-4 py-3">
               <button
                 class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 flex-1 bg-[#1172d4] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
               >
-                <span class="truncate">Upload Receipt &amp; Complete Reservation</span>
+                <span class="truncate">Upload Receipt & Complete Reservation</span>
               </button>
             </div>
             <p class="text-[#4c739a] text-sm font-normal leading-normal pb-3 pt-1 px-4 text-center">By completing the reservation, you agree to our terms and conditions.</p>
